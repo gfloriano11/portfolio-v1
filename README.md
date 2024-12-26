@@ -1,2 +1,3 @@
-# portfolio-v1
-My Software Developer Portfolio! It's going to be used to people see my work and studies. This is the version 1, only build in HTML, CSS and JavaScript. When I know more technologies, I'll build more versions...,
+<h1>My Portfolio! (First Version)</h1>
+
+<p>In this website, you can learn a bit more of who is Gustavo, and what he knows about programming!</p>
