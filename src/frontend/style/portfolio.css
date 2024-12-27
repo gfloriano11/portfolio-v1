@@ -16,7 +16,7 @@
 #menu_icon{
     cursor: pointer;
     margin-right: 3vw;
-    height: 5vh;
+    height: 25px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -25,24 +25,56 @@
 
 .menu_bar{
     width: 36px;
-    height: 1vh;
+    height: 5px;
     background-color: white;
     border-radius: 3px;
 }
 
+.left_bar{
+    transition: 1s all ease;
+
+}
+
+.right_bar{
+    transition: 1s all ease;
+
+}
+
+.remove_bar{
+    transition: 1s all ease;
+    /* opacity: 0% */
+}
+
 .menu_options{
+    background-color: rgb(207, 207, 207);
+    position: relative;
+    z-index: -1;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100vw;
-    gap: 20px;
-
+    height: 350px;
+    gap: 30px;
+    transform: translateY(-450px); /* js defines this transform too */
+    transition: 1s all ease;
+    
     & li{
         cursor: pointer;
         display: block;
     }
 }
 
-.hide{
-    display: none;
+.option{
+    user-select: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+
+.separation_bar{
+    width: 100vw;
+    height: 1vh;
+    background-color: rgb(185, 188, 190);
 }
