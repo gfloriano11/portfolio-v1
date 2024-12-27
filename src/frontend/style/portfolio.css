@@ -24,25 +24,25 @@
 }
 
 .menu_bar{
+    width: 36px;
+    height: 1vh;
     background-color: white;
     border-radius: 3px;
 }
 
-#menu_icon .menu_bar:nth-child(1){
-    width: 28px;
-    height: 1vh;
+.menu_options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    gap: 20px;
+
+    & li{
+        cursor: pointer;
+        display: block;
+    }
 }
 
-#menu_icon .menu_bar:nth-child(2){
-    width: 36px;
-    height: 1vh;
-}
-
-#menu_icon .menu_bar:nth-child(3){
-    width: 20px;
-    height: 1vh;
-}
-
-#teste{
+.hide{
     display: none;
 }
