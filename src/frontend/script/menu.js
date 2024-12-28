@@ -1,9 +1,10 @@
+const body = document.querySelector('body');
+
 const menuIcon = document.querySelector('#menu_icon');
 const menu = document.querySelector('.menu_options');
 const removeBar = document.querySelector('.remove_bar');
 const leftBar = document.querySelector('.left_bar');
 const rightBar = document.querySelector('.right_bar');
-const body = document.querySelector('body');
 
 menu.style.transform = 'translateY(-100%)';
 
