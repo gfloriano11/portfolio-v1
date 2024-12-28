@@ -16,9 +16,10 @@
 }
 
 #menu_icon{
+    transition: 1s all ease;
     cursor: pointer;
     margin-right: 3vw;
-    height: 25px;
+    height: 28px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;

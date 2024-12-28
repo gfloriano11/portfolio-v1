@@ -14,21 +14,26 @@ menuIcon.addEventListener('click', () => {
 
         body.style.overflow = 'hidden';
 
+        
         menu.style.transform = 'translateY(0)';
         removeBar.style.opacity = '0%';
-
+        
         leftBar.style.transform = 'rotate(45deg) translateY(5px) translateX(7px)';
-
+        
         rightBar.style.transform = 'rotate(-45deg) translateY(-5px) translateX(7px)';
         
+        menuIcon.style.height = '25px';
     } else {
 
         body.style.overflow = '';
 
+        
         menu.style.transform = 'translateY(-100%)';
         removeBar.style.opacity = '100%';
         leftBar.style.transform = 'rotate(0)';
         rightBar.style.transform = 'rotate(0)';
+
+        menuIcon.style.height = '28px';
     }
     
 });
