@@ -37,11 +37,11 @@
     display: none;
     justify-content: left;
     user-select: none;
-    cursor: pointer;
     gap: 5vw;
 }
 
 .link_container{
+    cursor: pointer;
     transition: 0.3s all ease-in;
     padding: 0 10px 0 10px;
     height: 50px;
