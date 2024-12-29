@@ -123,14 +123,46 @@
 }
 
 #content_container{
+    width: 100%;
+}
+
+#home_title{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.home_subtitle{
+    font-size: 20px;
+    text-align: center;
+}
+
+#info_container{
     display: flex;
     justify-content: center;
-    width: 100%;
+}
+
+#info{
+    width: 70%;
+    margin-top: 2vh;
+    display: flex;
+}
+
+#image{
+    /* object-fit: cover; */
+    border-radius: 50%;
+    max-width: 50vw;
+    max-height: 50vh;
+    min-width: 300px;
+    min-height: 300px;
+    width: auto;
+    height: auto;
 }
 
 @media (min-width: 769px){
     #navbar{
         position: sticky;
+        margin-bottom: 25px;
     }
 
     #menu_icon{
