@@ -126,13 +126,13 @@
     width: 100%;
 }
 
-#home_title{
+.section_title{
     font-size: 26px;
     font-weight: bold;
     text-align: center;
 }
 
-.home_subtitle{
+.section_subtitle{
     font-size: 20px;
     text-align: center;
 }
@@ -171,19 +171,52 @@
 }
 
 #about_me{
+    margin-top: 2.5vh;
     display: flex;
     justify-content: center;
     min-width: 200px;
     max-width: 400px;
-    font-size: 16px;
 }
 
 #about_me p {
     text-align: justify;
     flex-wrap: wrap;
     width: 100%;
-    font-size: clamp(1.2rem, 1vw, 1.5rem);
+    font-size: clamp(1rem, 1vw, 1.2rem);
 }
+
+#contact_me{
+    text-decoration: underline;
+    color: var(--navbar-color);
+    cursor: pointer;
+}
+
+.skill_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 175px;
+    min-height: 175px;
+    background-color: #c4c4c4;
+    border-radius: 10%;
+}
+
+.skill_icon{
+    border-radius: 20px;
+    width: 150px;
+}
+
+#skills{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5vw;
+    row-gap: 5vh;
+}
+
+
 
 @media (min-width: 769px){
     #navbar{
@@ -199,7 +232,7 @@
         display: flex;
         justify-content: end;
     }
-
+    
     #menu_container{
         display: none;
     }
@@ -207,7 +240,7 @@
     #info_container{
         width: 100%;
     }
-
+    
     #info{
         width: 70%;
         margin-top: 5vh;
@@ -215,18 +248,28 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
-
+    
     #about_me{
         margin-left: 5vw;
         /* width: 23%; */
     }
     
-
+    #about_me p {
+        text-align: justify;
+        flex-wrap: wrap;
+        width: 100%;
+        font-size: clamp(1.2rem, 1vw, 1.5rem);
+    }
+    
     #image_container{
         min-width: 200px;
         min-height: 300px;
         max-width: 350px;
         max-height: 400px;
+    }
+
+    #skills{
+        grid-template-columns: auto auto auto auto;
     }
 }
 

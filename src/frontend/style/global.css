@@ -21,8 +21,6 @@ body{
     display: none;
 }
 
-#contact_me{
-    text-decoration: underline;
-    color: var(--navbar-color);
-    cursor: pointer;
+#skills_container{
+    margin-top: 100px;
 }
