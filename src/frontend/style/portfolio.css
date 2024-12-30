@@ -186,6 +186,7 @@
 }
 
 #contact_me{
+    font-weight: 600;
     text-decoration: underline;
     color: var(--navbar-color);
     cursor: pointer;
