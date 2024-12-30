@@ -178,6 +178,13 @@
     font-size: 16px;
 }
 
+#about_me p {
+    text-align: justify;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: clamp(1.2rem, 1vw, 1.5rem);
+}
+
 @media (min-width: 769px){
     #navbar{
         position: sticky;
@@ -210,12 +217,10 @@
     }
 
     #about_me{
-        font-size: 20px;
+        margin-left: 5vw;
+        /* width: 23%; */
     }
-
-    #about_me p {
-        margin-left: 2vw;
-    }
+    
 
     #image_container{
         min-width: 200px;

@@ -20,3 +20,9 @@ body{
 .hide{
     display: none;
 }
+
+#contact_me{
+    text-decoration: underline;
+    color: var(--navbar-color);
+    cursor: pointer;
+}
