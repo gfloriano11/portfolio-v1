@@ -196,15 +196,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 175px;
-    min-height: 175px;
+    min-width: 135px;
+    min-height: 135px;
+    max-width: 150px;
+    max-height: 150px;
     background-color: #c4c4c4;
     border-radius: 10%;
 }
 
 .skill_icon{
     border-radius: 20px;
-    width: 150px;
+    min-width: 115px;
+    max-width: 120px;
 }
 
 #skills{
@@ -216,8 +219,6 @@
     column-gap: 5vw;
     row-gap: 5vh;
 }
-
-
 
 @media (min-width: 769px){
     #navbar{
@@ -271,6 +272,18 @@
 
     #skills{
         grid-template-columns: auto auto auto auto;
+    }
+
+    .skill_container{
+        min-width: 175px;
+        min-height: 175px;
+    }
+
+    .skill_icon{
+        border-radius: 20px;
+        width: 150px;
+        min-width: 150px;
+        max-width: 150px;
     }
 }
 
