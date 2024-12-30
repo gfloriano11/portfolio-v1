@@ -175,7 +175,7 @@
     justify-content: center;
     min-width: 200px;
     max-width: 400px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 @media (min-width: 769px){
@@ -197,12 +197,31 @@
         display: none;
     }
 
+    #info_container{
+        width: 100%;
+    }
+
     #info{
+        width: 70%;
         margin-top: 5vh;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
 
+    #about_me{
+        font-size: 20px;
+    }
+
+    #about_me p {
+        margin-left: 2vw;
+    }
+
+    #image_container{
+        min-width: 200px;
+        min-height: 300px;
+        max-width: 350px;
+        max-height: 400px;
+    }
 }
 
