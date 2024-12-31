@@ -17,6 +17,13 @@ body{
     font-family: var(--font-family);
 }
 
+footer{
+    margin-top: 5vh;
+    background-color: var(--navbar-color);
+    width: 100%;
+    height: 150px;
+}
+
 .hide{
     display: none;
 }

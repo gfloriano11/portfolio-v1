@@ -196,10 +196,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 135px;
-    min-height: 135px;
+    min-width: 125px;
     max-width: 150px;
-    max-height: 150px;
+    height: 150px;
     background-color: #c4c4c4;
     border-radius: 10%;
 }
@@ -218,6 +217,47 @@
     align-items: center;
     column-gap: 5vw;
     row-gap: 5vh;
+}
+
+#projects{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5vw;
+    row-gap: 5vh;
+}
+
+.project_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 310px;
+    min-width: 220px;
+    height: 200px;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+}
+
+.project{
+    display: flex;
+    margin: 10px 15px 10px 15px;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.used_technologies{
+    text-align: center;
+    font-size: 18px;
+}
+
+.acess_repository{
+    text-align: center;
+    font-weight: bold;
+    color: #290c63;
 }
 
 @media (min-width: 769px){
@@ -284,6 +324,16 @@
         width: 150px;
         min-width: 150px;
         max-width: 150px;
+    }
+
+    #projects{
+        margin-top: 5vh;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5vw;
+        row-gap: 5vh;
     }
 }
 
