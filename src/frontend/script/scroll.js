@@ -3,6 +3,7 @@ const homeButton = document.querySelectorAll('#home');
 const skillsButton = document.querySelectorAll('#skill');
 const projectsButton = document.querySelectorAll('#project');
 const contactButton = document.querySelectorAll('#contact');
+const contactLink = document.querySelector('#contact_me');
 
 const start = document.querySelector('#top_space');
 const skills = document.querySelector('#skills_container');
@@ -32,6 +33,8 @@ contactButton.forEach((contact) => {
 
     contact.addEventListener('click', scrollContact);
 });
+
+contactLink.addEventListener('click', scrollContact);
 
 
 
