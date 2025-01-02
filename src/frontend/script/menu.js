@@ -16,7 +16,7 @@ menuIcon.addEventListener('click', () => {
         body.style.overflow = 'hidden';
 
         
-        menu.style.transform = 'translateY(0)';
+        menu.style.transform = 'translateY(50px)';
         removeBar.style.opacity = '0%';
         
         leftBar.style.transform = 'rotate(45deg) translateY(5px) translateX(7px)';

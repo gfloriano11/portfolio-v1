@@ -18,6 +18,9 @@ body{
 }
 
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 5vh;
     background-color: var(--navbar-color);
     width: 100%;
@@ -38,4 +41,13 @@ footer{
 
 #contacts_container{
     margin-top: 100px;
+}
+
+#start_button{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #b6b6b6;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
 }
