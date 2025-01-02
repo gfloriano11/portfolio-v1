@@ -152,9 +152,6 @@
 
 #info{
     width: 80%;
-    background-color: #dfdfdf;
-    border: 1px solid rgb(219, 219, 219);
-    padding: 30px 30px;
     border-radius: 20px;
     margin-top: 2vh;
     display: flex;
